@@ -1,0 +1,78 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int menu,jumlah,total;
+    printf("______________________________________________________________________________________________________________\n");
+    printf("||======================================SELAMAT DATANG DI GTARISSASHOP======================================||\n");
+    printf("||........................Disini Menjual Berbagai Jajanan dengan Harga Terjangkau...........................||");
+    printf("\n||``````````````````````````````````````````````````````````````````````````````````````````````````````````||");
+    printf("\n||----------------------------------------------------------------------------------------------------------||\n");
+    printf("||                                              LIST MENU PAKET                                             ||");
+    printf("\n||1. Paket MyAngel      = Ayam Geprek Paha Atas dengan Nasi dan Creamy Boba : 50k                           ||\n||2. Paket Noblesse     = Ayam Potong dengan Nasi dan Es Buah : 35k                                         ||\n||3. Paket Tegresz      = Bebek Bakar dengan Nasi dan Es Kopyor : 45k                                       ||\n||4. Paket Parkchimn    = Roti Maryam dan Roti Sbubu : 25k                                                  ||\n||5. Paket Proxenolite  = Roti Naga dan Es Buah : 20k                                                       ||");
+    printf("\n||__________________________________________________________________________________________________________||");
+    printf("\n|______________________________________________________|\n");
+    printf("|                                                      |");
+    printf("\n|Ingin Membeli Paket Nomor Berapa :                    |                                                                   ");
+    scanf("%d",&menu);
+    printf("                                                       |\n");
+    printf("''''''''''''''''''''''''''''''''''''''''''''''''''''''''");
+    switch (menu){
+
+    case 1 :
+        printf("\nMembeli Paket MyAngel\n");
+        printf("Harga Paket : 50.000");
+        printf("\n");
+        printf("\nIngin Membeli Berapa? ");
+        scanf("%d",&jumlah);
+        total = jumlah*50000;
+        printf("Total Pesanan = %d",total);
+        printf("\n\nSilahkan Menuju Ke Kasir Untuk Melakukan Pembayaran\nMohon Ditunggu Pesanannya");
+    break;
+    case 2 :
+        printf("\nMembeli Paket Noblesse\n");
+        printf("Harga Paket : 35.000");
+        printf("\n");
+        printf("\nIngin Membeli Berapa? ");
+        scanf("%d",&jumlah);
+        total = jumlah*35000;
+        printf("Total Pesanan = %d",total);
+        printf("\n\nSilahkan Menuju Ke Kasir Untuk Melakukan Pembayaran\nMohon Ditunggu Pesanannya");
+    break;
+    case 3 :
+        printf("\nMembeli Paket Tegresz\n");
+        printf("Harga Paket :45.000");
+        printf("\n");
+        printf("\nIngin Membeli Berapa? ");
+        scanf("%d",&jumlah);
+        total = jumlah*45000;
+        printf("Total Pesanan = %d",total);
+        printf("\n\nSilahkan Menuju Ke Kasir Untuk Melakukan Pembayaran\nMohon Ditunggu Pesanannya");
+    break;
+    case 4 :
+        printf("\nMembeli Paket Parkchimn\n");
+        printf("Harga Paket : 25.000");
+        printf("\n");
+        printf("\nIngin Membeli Berapa? ");
+        scanf("%d",&jumlah);
+        total = jumlah*25000;
+        printf("Total Pesanan = %d",total);
+        printf("\n\nSilahkan Menuju Ke Kasir Untuk Melakukan Pembayaran\nMohon Ditunggu Pesanannya");
+    break;
+    case 5 :
+        printf("\nMembeli Paket Proxenolite\n");
+        printf("Harga Paket : 20.000");
+        printf("\n");
+        printf("\nIngin Membeli Berapa? ");
+        scanf("%d",&jumlah);
+        total = jumlah*20000;
+        printf("Total Pesanan = %d",total);
+        printf("\n\nSilahkan Menuju Ke Kasir Untuk Melakukan Pembayaran\nMohon Ditunggu Pesanannya");
+    break;
+
+    default : ("Paket Itu Tidak Tersedia Di Toko Kami!");
+    }
+    getch();
+    return 0;	                            					//BANYU SIDRATUL MUNTAHA
+}
